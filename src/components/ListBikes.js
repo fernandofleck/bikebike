@@ -1,9 +1,22 @@
-import React from 'react';
+import React, {Component} from 'react';
 import Bike from './Bike.js';
 
-function ListBikes() {
-    return (
-      <div>
+class ListBikes extends Component {
+  
+  alerta(){
+    alert('Good Choice!!!');
+  }
+
+  cambiarAmarillo(){
+    document.querySelector('.subtitulo').style.backgroundColor='Yellow';
+  }
+
+  cambiarVerde(){
+    document.querySelector('.subtitulo').style.backgroundColor='Green';
+  }
+
+  render() {return (
+      <div onClick={this.alerta} onMouseOver={this.cambiarAmarillo} onMouseOut={this.cambiarVerde}>
           <Bike
             color= "rojo"
             rodados = {[26, 27.5, 29]}
@@ -21,5 +34,6 @@ function ListBikes() {
       </div>
     );
   }
+}
 
 export default ListBikes;

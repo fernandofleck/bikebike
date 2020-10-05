@@ -16,7 +16,7 @@ function Bike(props) {
 
     return (
         <div>
-            <h3>Bicicleta</h3>
+            <h3 className="subtitulo">Bicicleta</h3>
             <p>Color: {props.color}</p>
             <p>Rodados:</p>
             <ul>

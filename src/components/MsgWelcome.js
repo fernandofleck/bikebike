@@ -6,7 +6,7 @@ function MsgWelcome() {
       <div>
           <p>Este es el mensaje de...</p>
           <Welcome />
-          <img src='./img/7513.jpg' style={{width: "100%"}} />
+          <img src='./img/7513.jpg' style={{width: "100%"}} alt=""/>
           <a href='https://www.freepik.es/fotos/viajes'>Foto de Viajes creado por jcomp - www.freepik.es</a>
       </div>
     );
