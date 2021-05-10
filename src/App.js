@@ -5,11 +5,13 @@ import ListBikes from './components/ListBikes.js';
 import ContenedorPublicidad from './components/ContenedorPublicidad.js';
 import Contador from './components/Contador.js';
 import Gif from './components/Gif.js';
+import Nav from './components/Nav';
 
 function App() {
   return (
     <div>
       <main>
+        <Nav/>
         <Gif/>
         <MsgWelcome />
         <Contador inicial={0}/>
