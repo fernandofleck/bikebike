@@ -32,7 +32,7 @@ class Gif extends Component {
 
     componentDidUpdate(){
         console.log('Me actualicé!!!');
-        alert('GIF NUEVO!!!')
+        //alert('GIF NUEVO!!!')
     }
 
     nuevoGif(){
