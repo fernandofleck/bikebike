@@ -43,7 +43,7 @@ class Gif extends Component {
 
         let contenido;
 
-        if(this.state.gif==""){
+        if(this.state.gif===""){
             contenido=<p>Cargando...</p>
         } else {
             contenido = <img src={this.state.gif} alt=""></img>
